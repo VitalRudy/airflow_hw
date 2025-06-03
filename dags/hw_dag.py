@@ -4,7 +4,6 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 
-# Абсолютный путь к airflow_hw, чтобы импортировать pipeline и predict
 sys.path.append('/Users/apple/PycharmProjects/PythonProject/airflow_hw')
 
 from modules.pipeline import pipeline
