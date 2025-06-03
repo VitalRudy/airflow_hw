@@ -1,1 +1,10 @@
-data
+data/*
+
+!data/train/
+!data/train/homework.csv
+
+!data/test/
+!data/test/*.json
+
+!data/predictions/
+!data/predictions/predictions.csv
